@@ -1,0 +1,17 @@
+package com.nc.springBootTest.util;
+
+
+public class CheckNumException extends Exception{
+	private static final long serialVersionUID = 1L;
+	public CheckNumException(){}
+	public CheckNumException(String msg){
+		super(msg);
+	}
+	
+	public void calculate (int num) throws CheckNumException{
+		if (num < 0 || num > 100) {
+			CheckNumException e = new CheckNumException("���鷶ΧԽ��!!!");
+			throw e;
+		}
+	}
+}
