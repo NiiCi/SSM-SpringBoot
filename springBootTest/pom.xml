@@ -6,8 +6,8 @@
 	<groupId>com.nc</groupId>
 	<artifactId>springBootTest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
-	
+	<packaging>jar</packaging>
+
 	<name>springBootTest</name>
 	<description>Demo project for Spring Boot</description>
 
