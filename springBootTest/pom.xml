@@ -151,7 +151,6 @@
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.12</version>
-			<scope></scope>
 		</dependency>
 
 		<!-- 使用jaakson做数据绑定 不适用gson jackson-databind -->
